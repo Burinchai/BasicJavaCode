@@ -1,0 +1,17 @@
+package Week04;
+public class CompareData {
+    public static void main(String[] args) {
+        int a=10,b=5;
+        System.out.println(a+" มีค่าเท่ากบ "+b+" หรือไม่ ? "+(a==b));
+        System.out.println(a+" มีค่าไม่เท่ากบ "+b+" หรือไม่ ? "+(a!=b));
+        System.out.println(a+" มีค่าน้อยกว่า "+b+" หรือไม่ ? "+(a<b));
+        System.out.println(a+" มีค่ามากกว่า "+b+" หรือไม่ ? "+(a>b));
+        System.out.println(a+" มีค่าน้อยกว่าหรือเท่ากับ "+b+" หรือไม่ ? "+(a<=b));
+        System.out.println(a+" มีค่ามากกว่าหรือเท่ากับ "+b+" หรือไม่ ? "+(a>=b));
+
+        /*boolean c = a==b;
+        System.out.println(c);*/
+
+    }
+    
+}
